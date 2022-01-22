@@ -197,14 +197,13 @@ a {
   margin-left: 30px;
 }
 
-.features-title,
-.work-title,
-.team-title {
+.features-title {
   font-weight: 700;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 
 .features-title {
   margin-bottom: 10px;
@@ -219,12 +218,16 @@ a {
 
 /* Работа */
 
-
-
-.work-title {
+.work-title,
+.team-title {
   margin-bottom: 50px;
   text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
 }
+
 
 .work-list {
   display: flex;
@@ -240,9 +243,6 @@ a {
   background-color: var(--team-background-color);
 }
 
-.team-title {
-  margin-bottom: 50px;
-}
 
 .team-list {
   display: flex;
